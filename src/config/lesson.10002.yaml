@@ -1,0 +1,531 @@
+roles:
+  - name: 主角
+    SN: "01"
+  - name: 莉琉
+    SN: "12"
+actionList:
+  - _comment: |-
+      \\录像
+      \\埃癸斯登录动画
+      \\玩家输入名字
+      \\背景图：埃癸斯系统界面
+    actions:
+      - action: playBGM
+        soundId: "99120110001"
+        _comment: this.defaultBGM
+      - action: background
+        bgPic: BG_Shot_AEGIS.png
+      - action: asideSpeak
+        sentenceIdx: 0
+  - _comment: null
+    actions:
+      - action: delay
+        second: 0.5
+      - action: asideSpeak
+        sentenceIdx: 1
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 2
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 3
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 4
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 5
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 6
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 7
+  - _comment: \\背景图：研究中心走廊傍晚
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "01"
+        sentenceIdx: 8
+      - action: background
+        bgPic: BG_RC_passageNight.png
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "01"
+        sentenceIdx: 9
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "02"
+        sentenceIdx: 10
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 0
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "04"
+        sentenceIdx: 11
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 12
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 13
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 14
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 15
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 16
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 0
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "03"
+        sentenceIdx: 17
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "04"
+        sentenceIdx: 18
+  - _comment: \\黑屏
+    actions:
+      - action: stopBGM
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "03"
+        sentenceIdx: 19
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 20
+      - action: playBGM
+        soundId: "99120110004"
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 21
+      - action: background
+        bgPic: BG_Shot_liliu_instPassageHiding2.png
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 22
+  - _comment: null
+    actions:
+      - action: background
+        bgPic: BG_Shot_liliu_instPassageHiding.png
+      - action: asideSpeak
+        sentenceIdx: 23
+  - _comment: \\图：莉琉一手捂住男主
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 24
+      - action: background
+        bgPic: BG_Shot_liliu_instPassageHiding.png
+      - action: playBGM
+        soundId: "99120110004"
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 25
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 26
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 27
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 28
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 29
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 30
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 31
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 32
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 33
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 34
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 35
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 36
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 37
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 38
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 39
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 40
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 41
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 42
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 43
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 44
+  - _comment: null
+    actions:
+      - action: background
+        bgPic: BG_Shot_liliu_instPassageHidingre.png
+      - action: asideSpeak
+        sentenceIdx: 45
+      - action: background
+        bgPic: BG_Shot_liliu_instPassageHidingre.png
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 46
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 47
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 48
+  - _comment: \\渐暗
+    actions:
+      - action: stopBGM
+      - action: end
+sentences:
+  - SN: 1
+    name: N/A@系统语音
+    content:
+      zh-Hans: 登录成功！
+      zh-Hant: 登入成功！
+      jp: ログイン処理を正常に完了致しました！
+      kr: 접속 성공!
+      en: Login Successful!
+  - SN: 2
+    name: N/A@系统语音
+    content:
+      zh-Hans: 欢迎使用第五学园都市『埃癸斯』安保系统\n正在检索...\n\n登录成功。
+  - SN: 3
+    name: N/A@系统语音
+    content:
+      zh-Hans: 您的ID：2519G1911\n姓名：[%rolename%]
+      zh-Hant: 您的ID：2519G1911。\n姓名：[%rolename%]。
+      jp: ユーザーID：2519G1911\n名前：[%rolename%]
+      kr: ID：2519G1911\n이름：[%rolename%]
+      en: "ID: 2519G1911\\n Name: [%rolename%]"
+  - SN: 4
+    name: N/A@系统语音
+    content:
+      zh-Hans: 年龄：15岁\n性别：男性
+      zh-Hant: 年齡：15歲。\n性別：男性。
+      jp: 年齢：15歳\n性別：男性
+      kr: 나이：15세\n성별：남성
+      en: "Age: 15\\n Gender: Male"
+  - SN: 5
+    name: N/A@系统语音
+    content:
+      zh-Hans: 欢迎来到第五学园都市斯蒂尔蒙特收容研究中心。\n新丰洲境内最大的『异质物』收容与研究机构。
+  - SN: 6
+    name: N/A@系统语音
+    content:
+      zh-Hans: 『异质物』又称『神迹』，指在特定情况下能引发超常物理现象的道具和工具的总称。
+      zh-Hant: 「異質物」又稱「神蹟」，是指在特定情況下能引發超自然現像的物品總稱。
+      jp: 『異質物』は『聖痕』とも呼ばれ、\n特定の状況下では一般常識を超えた、\n物理現象を引き起こす道具などの総称です。
+      kr: 『이물질』 또는 『기적』，\n특정 상황에서 초물리현상을 야기하는 아이템의 총칭
+      en: '"Substance H, a.k.a. the Divine Touch, is a general term for items and
+        tools that activate supernatural phenomena at certain conditions."'
+  - SN: 7
+    name: N/A@系统语音
+    content:
+      zh-Hans: 今天是研究中心的学园开放日。\n研究中心向市民和其他学园都市的考察团开放。
+  - SN: 8
+    name: N/A@系统语音
+    content:
+      zh-Hans: 作为公众教育的重要一环。\n会将部分『神迹』和研究成果和进行展览……
+  - SN: 9
+    name: 主角
+    content:
+      zh-Hans: Lucky！~总算在闭馆之前赶到了！
+      zh-Hant: Lucky！呼～終於在閉館之前趕到了！
+      jp: ラッキー！　なんとか閉館前に間に合った！
+      kr: Lucky！~폐관하기 전에 도착했어!
+      en: Lucky! Finally here before the closing time!
+  - SN: 10
+    name: 主角
+    content:
+      zh-Hans: 大厅的电梯居然全都停运了，好在发现了还在运行的备用货梯。
+      zh-Hant: 欸？搞什麼啊，電梯居然都暫停使用，好險這裡有一台還能動的備用貨梯。
+      jp: ロビーのエレベーターが全部止まっている中で、\nまだ動いてた予備の貨物用エレベーターを\n見つけられるなんて、運が良いいな俺！
+      kr: "엘리베이터가 왜 다 멈췄지? \\n\\n마침 운행 중인 화물용 엘리베이터를 발견해서 다행이야. "
+      en: Why are all elevators in the lobby out of service? Luckily this freight
+        elevator is still running.
+  - SN: 11
+    name: 主角
+    content:
+      zh-Hans: 总之，只要去听个讲座盖章就能拿到学分了吧？
+      zh-Hant: 總之，只要去聽個講座再蓋個章就能拿到學分了吧？
+      jp: とにかく、講義を聞いて捺印をもらえば、\nサクっと単位がもらえるかな？
+      kr: 어쨌든，수강하고 도장만 받으면 \n학점을 얻을 수 있다는 말이지?
+      en: '"Anyway, just need a stamp on the lecture paper to get school credits."'
+  - SN: 12
+    name: 主角
+    content:
+      zh-Hans: 不过……这层怎么也一个人都看不到？
+      zh-Hant: 不過……怪了，怎麼一個人都沒有？
+      jp: でも……このフロア、なんで誰もいないんだ…？
+      kr: "그런데……여긴 왜 한 사람도 안 보이지? "
+      en: Wait… why is there no one on this floor?
+  - SN: 13
+    name: N/A
+    content:
+      zh-Hans: 我沿着二楼的走廊边走边四处张望。
+      zh-Hant: 我沿著二樓的走廊邊走邊張望。
+      jp: 俺は2階の廊下を渡りながらあっちこっちを\n見回した。
+      kr: 2층 복도를 따라 걸으며 주위를 살폈다.
+      en: I walk along the corridor on the second floor and look around.
+  - SN: 14
+    name: N/A
+    content:
+      zh-Hans: 虽说这种研究机构平时人就不多，但在开放日居然连一个人影都看不到。
+  - SN: 15
+    name: N/A
+    content:
+      zh-Hans: 我一边胡乱猜测着各种可能性，一边凭着感觉漫无目的的闲逛。
+  - SN: 16
+    name: N/A
+    content:
+      zh-Hans: 空气里有股淡淡的消毒水的味道，让人不禁联想到闭馆后进行扫除作业的清洁人员。
+  - SN: 17
+    name: N/A
+    content:
+      zh-Hans: 为了找讲座所在的『会议厅』，我拐到了一个旋转楼梯附近。
+  - SN: 18
+    name: 主角
+    content:
+      zh-Hans: 不会已经结束了吧？
+  - SN: 19
+    name: 主角
+    content:
+      zh-Hans: 惨了惨了，果然不应该玩那个游戏……
+      zh-Hant: 慘了慘了，果然不應該玩那個遊戲……
+      jp: ヤバイヤバイ、やっぱりあのゲームは\n夜中までやるべきじゃなかった……
+      kr: 망했네.역시 그 게임을 하는 게 아니였는데……
+      en: "It sucks. Shouldn't play the video game… "
+  - SN: 20
+    name: 主角
+    content:
+      zh-Hans: 『下一回合』这种按钮真是有毒──\n啊啊啊啊唔嗯！！！？
+      zh-Hant: ""
+      jp: 『次のラウンド』というボタンは\nゲーマーにとって押さなきゃいけないもので――\nああああぉぅぐぅっ！！！？
+      kr: 『다음 라운드』 버튼은 중독성이 너무 강해──\n아아아아으읍！！！？
+      en: ""
+  - SN: 21
+    name: N/A
+    content:
+      zh-Hans: 突然我的脖子被什么东西钩住并被迅速向后拉。
+      zh-Hant: 我的脖子瞬間被什麼東西勾住，還被迅速往後拉。
+      jp: 俺の首が急に何かに組み付かれ、\n素早く後ろに引っ張られていく。
+      kr: "누군가 갑자기 목을 걸고 뒤로 끌어당긴다. "
+      en: Suddenly my neck feels like being clutched by something and pulled
+        backwards.
+  - SN: 22
+    name: N/A
+    content:
+      zh-Hans: 身体马上要失去平衡的时候，感觉后脑勺靠在了一个柔软又坚实的物体上。
+      zh-Hant: 眼看我的身體馬上要失去平衡，後腦勺卻突然感覺靠在一個柔軟又堅實的物體上。
+      jp: 身体のバランスが崩れると、後頭部に\n柔らかくしっかりした物を感じた。
+      kr: "몸이 균형을 잃자 뒤통수에 부드럽고 단단한 물체가 \\n느껴진다. "
+      en: "\"As I'm about to lose balance, I feel my head falls on something soft but
+        firm.\""
+  - SN: 23
+    name: N/A
+    content:
+      zh-Hans: 等我回过神来，已经被拉进了楼梯拐角处一条狭窄的过道，周围的光线要暗上许多。
+      zh-Hant: 等我回過神來，已經被拉進樓梯轉角處一條狹窄的通道，周圍光線昏暗。
+      jp: 気が付けば、そこは狭く周囲が薄暗い\n階段の隅にある通路。
+      kr: 고개를 돌려보니 계단 구석쪽 좁은 통로로 끌려왔다. \n주위 빛이 모두 꺼져있다.
+      en: '"When I come back to myself, I find myself dragged into a dark, narrow
+        aisle at the corner of the staircase."'
+  - SN: 24
+    name: N/A@[%rolename%]
+    content:
+      zh-Hans: 呜──！！\n唔──！！！
+      zh-Hant: ""
+      jp: う゛ぅぅーーッ！！\nん゛ーーッ！！！
+      kr: 흑──！！\n읍──！！！
+      en: ""
+  - SN: 25
+    name: N/A
+    content:
+      zh-Hans: 还没叫出声，我的嘴就被一只手紧紧捂住，只能勉强用余光看到一个穿着白大褂的女人──
+      zh-Hant: ""
+      jp: 叫ぼうとしたけど、俺の口はすぐの手で塞がれる\n微かな横目に、白衣姿の女の人が映った──
+      kr: 소리를 내기도 전에 입이 틀어막힌다. \n곁눈질로 보니 흰 가운을 입은 여성이 보인다.
+      en: ""
+  - SN: 26
+    name: N/A
+    content:
+      zh-Hans: 此时她背靠墙壁，用一只手捂着我的嘴。
+  - SN: 27
+    name: N/A
+    content:
+      zh-Hans: 而我的一侧脸颊被紧紧贴在她的胸前……芬芳馥郁的香气不断钻进鼻子里。
+      zh-Hant: 而我的側臉正緊緊貼在她的胸前……芬芳馥郁的香氣不斷鑽進鼻子裡。
+      jp: 頬にぎゅっと彼女の胸がくっ付けられて……\n未知数の甘い香りが鼻を柔く刺激する。
+      kr: 그리고，내 볼이 그녀의 가슴에 밀착된다……향긋한 향기가 콧속을 간지럽힌다.
+      en: My cheek pressed into her chest... I smell the fragrance on her.
+  - SN: 28
+    name: N/A@[%rolename%]
+    content:
+      zh-Hans: （诶？？好、好大！！整个头都要埋进去了！！）
+  - SN: 29
+    name: N/A@[%rolename%]
+    content:
+      zh-Hans: （什么状况！这个人是谁！？）
+  - SN: 30
+    name: N/A@穿白大褂的女性
+    content:
+      zh-Hans: 嘘─！别出声──
+  - SN: 31
+    name: N/A
+    content:
+      zh-Hans: 身后的女人虽然刻意压低声音，但言语中透露着不容质疑的威严感。
+      zh-Hant: 身後的女人雖然刻意壓低聲音，但語調中透露著不容質疑的威嚴。
+      jp: 背後の女性は声を小さく抑えている。小さくてもその声には疑う余地の無い威厳があった。
+      kr: 여자의 낮은 목소리에서 질문을 \n용납하지 않겠다는 위압감이 드러난다.
+      en: '"She keeps her voice down, but there’s still a sense of authority in it."'
+  - SN: 32
+    name: N/A
+    content:
+      zh-Hans: 我的脑子乱作一团，感觉快要窒息了\n只能微微点头表示顺从……
+      zh-Hant: 我的腦子亂成一團，感覺快窒息了，\n只能微微點頭表示我知道了……
+      jp: 無茶苦茶に混乱していた俺は、\n小刻みに頷いてただ従うしかできない……
+      kr: 머리가 아수라장이 되어 곧 질식할 것 같다.\n순순히 따르겠다는 의미로 작게 고개를 끄덕였다.
+      en: "I can't think straight. I'm suffocating. \\n I can only nod slightly to
+        show my obedience… "
+  - SN: 33
+    name: N/A
+    content:
+      zh-Hans: 虽然嘴依然被捂着，但脖子上的压力小了一些。
+  - SN: 34
+    name: N/A
+    content:
+      zh-Hans: 我将目光聚焦在近处，隐约看到她胸前的白大褂上别着的姓名牌上有一行小字──
+  - SN: 35
+    name: N/A@[%rolename%]
+    content:
+      zh-Hans: 首席科学家……莉琉·冯·布劳恩？！
+  - SN: 36
+    name: N/A
+    content:
+      zh-Hans: （等等，她不就是那个讲座的主讲人吗？）
+  - SN: 37
+    name: N/A
+    content:
+      zh-Hans: 莉琉并没有看我，而是把头转向另一侧，专注的盯着走廊的方向，同时压低声音说道──
+  - SN: 38
+    name: N/A@莉琉
+    content:
+      zh-Hans: 这里被恐怖分子入侵了，不想死就老实点。
+  - SN: 39
+    name: N/A@[%rolename%]
+    content:
+      zh-Hans: （恐怖分子？！她在说什么啊……）
+  - SN: 40
+    name: N/A@莉琉
+    content:
+      zh-Hans: 一会我放开你，不要发出任何声音，明白了吗？
+  - SN: 41
+    name: N/A
+    content:
+      zh-Hans: 我顺从的点了点头，她缓缓松开了捂着我嘴的那只手，并将另一只手上手枪的保险打开。
+  - SN: 42
+    name: N/A
+    content:
+      zh-Hans: （等等，她不是这里的研究人员吗？！！）
+  - SN: 43
+    name: N/A@莉琉
+    content:
+      zh-Hans: 我得去会议厅看看状况，你就在这里不要乱走，乖乖等着防卫厅的人。
+  - SN: 44
+    name: N/A@莉琉
+    content:
+      zh-Hans: 就在这里等待救援，知道了吗！
+  - SN: 45
+    name: N/A
+    content:
+      zh-Hans: 在我大脑一片空白不知该如何应对的时候，走廊远处传来了一阵急促的脚步声……
+  - SN: 46
+    name: N/A
+    content:
+      zh-Hans: 这就是我记忆中与莉琉的第一次相遇的情景。
+  - SN: 47
+    name: N/A
+    content:
+      zh-Hans: 现在想来，我或许应该听这个女人的话，乖乖缩在原地躲好。
+  - SN: 48
+    name: N/A
+    content:
+      zh-Hans: 而不是在几分钟后头脑发热的去拿那根作为展品的[ff9c00]金属球棒[-]逞英雄……
+  - SN: 49
+    name: N/A
+    content:
+      zh-Hans: ……我真是个笨蛋。

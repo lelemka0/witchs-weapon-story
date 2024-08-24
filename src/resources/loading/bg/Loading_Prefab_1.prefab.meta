@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 89505c67ec9a6a542bc80c88649b4766
+timeCreated: 1723845021
+licenseType: Free
+NativeFormatImporter:
+  name:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData:
+  assetBundleName: assets/resources/ui/uiimage/loading/loading_prefab_1
+  assetBundleVariant:

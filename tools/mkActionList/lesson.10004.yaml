@@ -1,0 +1,266 @@
+roles:
+  - name: 主角
+    SN: "01"
+actionList:
+  - _comment: null
+    actions:
+      - action: playVideo
+        videoId: 10004_1
+  - _comment: \\录像
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 0
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 1
+      - action: playBGM
+        soundId: 99120110002
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 2
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 3
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 4
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 5
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 6
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 7
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 8
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 9
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 10
+  - _comment: null
+    actions:
+      - action: playVideo
+        videoId: 10004_2
+  - _comment: |-
+      C_begin:\\城市毁灭
+      \\录像
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 11
+      - action: background
+        bgPic: BG_Shot_cityCrash_salt
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 12
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 13
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 14
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 15
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 16
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 17
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 18
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 19
+  - _comment: null
+    actions:
+      - action: stopBGM
+      - action: end
+      - action: asideSpeak
+        sentenceIdx: 20
+sentences:
+  - SN: 1
+    name: N/A
+    content:
+      zh-Hans: ……
+      zh-Hant: ……
+      jp: …………
+      kr: ……
+      en: …
+  - SN: 2
+    name: 主角
+    content:
+      zh-Hans: 嗯……？
+      zh-Hant: 嗯……？
+      jp: …………うん……？
+      kr: 음……？
+      en: Hum…?
+  - SN: 3
+    name: 主角
+    content:
+      zh-Hans: （呜……究竟发生了什么…头好晕…）
+  - SN: 4
+    name: 主角
+    content:
+      zh-Hans: 好痛…头快要裂开了一样…
+  - SN: 5
+    name: 主角
+    content:
+      zh-Hans: 对了…我刚刚想用球棒偷袭其中一个入侵者…结果被一脚踢到楼下了吗…
+  - SN: 6
+    name: 主角
+    content:
+      zh-Hans: 万幸摔进了展品后面的阴影里…不然肯定会被那些家伙当场射杀吧…
+  - SN: 7
+    name: N/A
+    content:
+      zh-Hans: （我抬头看着周围遮挡住视线像是石版的东西）\n（上面铭刻着奇怪的图案和文字…）
+  - SN: 8
+    name: 主角
+    content:
+      zh-Hans: （石板展品的铭牌上写着Miskatonic……）\n（后面的字迹模糊了…现在不是看这个的时候。）
+  - SN: 9
+    name: 主角
+    content:
+      zh-Hans: 意识清醒些了…话说是不是…太安静了……
+  - SN: 10
+    name: 主角
+    content:
+      zh-Hans: 那些家伙已经到别处去了吗？
+      zh-Hant: ""
+      jp: あいつらはもう別の場所に行っちゃったのかな？
+      kr: 그 녀석들은 다른 곳으로 갔나?
+      en: ""
+  - SN: 11
+    name: 主角
+    content:
+      zh-Hans: 稍微，去看看情况吧。\n会议厅……莉琉……
+      zh-Hant: 稍微去看一下情況好了。\n會議廳……莉琉……
+      jp: ちょっと、様子を見に行こう……\n講義室……マリルさん……
+      kr: 잠시 상황을 지켜보자\n회의실……마리루……
+      en: Le… let me check around. \n The Conference Hall… Mariru…
+  - SN: 12
+    name: N/A@[%rolename%]
+    content:
+      zh-Hans: 这是，在做梦吧……？\n究竟是，怎么回事？？
+      zh-Hant: 這、這是在做夢吧……？\n究竟是怎麼回事？？
+      jp: これ、夢……だよな……？　\n一体、どういう事だ？？
+      kr: 이건，꿈인가……？\n도대체，어떻게 된 거지？？
+      en: This must be a dream… I suppose? \n What the heck is this all about?
+  - SN: 13
+    name: N/A
+    content:
+      zh-Hans: 在一片火海中，仿佛雕塑园一样\n人们的动作鲜活、表情生动……
+      zh-Hant: 在一片火海中，\n人們的動作依舊鮮活、表情仍然生動……
+      jp: 火の海の中は、まるで彫刻園のように、\n生き生きとした動きや表情を見せる人々がいた。
+      kr: 불바다 속，조각 공원처럼\n사람들의 동작과 표정이 생동감있다……
+      en: '"In a sea of fire, people are standing still like sculptures. \n Their
+        postures are lively and expressions vivid…"'
+  - SN: 14
+    name: N/A
+    content:
+      zh-Hans: 但是他们，已经失去了人的颜色，变得一片惨白。
+      zh-Hant: 但是他們已經沒了顏色，慘白一片，像雕像一樣。
+      jp: しかし彼らからはすでに「人間の色」が\n全て失われており、残るのは惨白のみ。
+      kr: "하지만 그들은 안색을 잃어 하나같이 창백하다. "
+      en: "\"But they don't show the normal colors of human, and are all ghostly
+        pale.\""
+  - SN: 15
+    name: N/A@[%rolename%]
+    content:
+      zh-Hans: 这种、这种事情……怎么可能……
+      zh-Hant: 這種、這種事情……怎麼可能……
+      jp: こ…、こ…んな事って……ありえないだろ……
+      kr: 이，이……어떻게 된 거지……?
+      en: H… how could this… be possible…
+  - SN: 16
+    name: N/A@[%rolename%]
+    content:
+      zh-Hans: 不要……\n大家都……怎么了……莉琉小姐……哪去了……
+      zh-Hant: 不……\n大家都……怎麼了……莉琉小姐……到哪去了……
+      jp: イヤだ……\nみんな……どうしたんだ……\nマリルさん……どこに行ったんだよ……？
+      kr: 안 돼……\n다들……왜 그러는 거야……마리루씨……어디 갔어……?
+      en: No… \n What happened… to these people? And Ms. Mariru… Where is she?
+  - SN: 17
+    name: N/A@[%rolename%]
+    content:
+      zh-Hans: 倒是谁来……告诉我啊啊！！
+      zh-Hant: 誰來……誰來告訴我啊啊！！
+      jp: 誰か…………何が起きたか俺に教えてくれ！！
+      kr: 누가 좀 알려줘！！
+      en: Please… someone tell me!
+  - SN: 18
+    name: N/A
+    content:
+      zh-Hans: 当我伸手试图触碰一位女性冰冷的脸庞时，她的脖子无言的断裂，头摔在地上，四分五裂。
+      zh-Hant: 當我伸手試圖觸碰一位女性冰冷的臉龐時，她的脖子瞬間斷裂，頭摔到地上，四分五裂。
+      jp: 1人の女性の冷たい顔に触れると、\n首が無言のままに崩れる。\n彼女の頭部は床に落下し、バラバラに砕けた。
+      kr: 한 여자의 차가운 얼굴을 만지려고 하자 \n그녀의 목이 잘려 바닥에서 산산조각 난다.
+      en: '"I try to touch the frozen face of a woman, but her neck just breaks
+        without a sound. Her head falls onto the floor and crushes into parts."'
+  - SN: 19
+    name: N/A@[%rolename%]
+    content:
+      zh-Hans: 这是……盐？？
+      zh-Hant: 這是……鹽？？
+      jp: ……これは……塩？？
+      kr: 이건…소금？？
+      en: It's… salt?
+  - SN: 20
+    name: N/A@[%rolename%]
+    content:
+      zh-Hans: 唔……呜……\n呜哇啊啊啊啊！！！！
+      zh-Hant: 唔……嗚……\n嗚哇啊啊啊啊！！！！
+      jp: うぅ…ぁ……\nぁぁぁああああッ！！！！
+      kr: 으…흑……\n흐아아아아아！！！！
+      en: Uh… No… \n Waaaah!
+  - SN: 21
+    name: N/A@[%rolename%]
+    content:
+      zh-Hans: 呜哇啊啊啊啊！！！！\n啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！！！！！
+      zh-Hant: 嗚哇啊啊啊啊！！！！\n啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！！！！！
+      jp: ひ、あ、あああッ！！！！\n\nああああああああああああああッッッ！！！！！
+      kr: 으아아아아！！！！\n아아아아아아아아아아아！！！！！！！！
+      en: Waaaah! \n Noooo!

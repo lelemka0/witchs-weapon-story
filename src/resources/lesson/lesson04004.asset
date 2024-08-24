@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7caa3d63b648fbb2d4bf8158705a88e, type: 3}
+  m_Name: lesson04004
+  m_EditorClassIdentifier:
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.GuideLessonTrees.GuideLessonTree","translation":{"x":-3314.0,"y":-3613.0},"zoomFactor":0.750014,"nodes":[{"_roundInfo":{"execMode":"onlyCMDList","evtType":"none","triggerType":"Empty","_b4cmdActionList":{"actions":[{"delaytime":1.5,"$type":"NodeCanvas.Tasks.Actions.DelayTime"},{"$type":"NodeCanvas.Tasks.Actions.A_begin"},{"wordStr":"\u5f00\u59cb\u4f5c\u6218\uff0c\u5c06\u654c\u4eba\u9010\u4e2a\u51fb\u7834\u5427!","icon":"021","delaytime":2.5,"isOperate":true,"enableSentenceMapping":true,"sentenceIdx":0,"$type":"NodeCanvas.Tasks.Actions.A_speak"}]},"_a4cmdActionList":{"actions":[]}},"_position":{"x":5565.999,"y":4833.666},"_comment":"","$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"2"},{"_roundInfo":{"execMode":"basedOnEvent","evtType":"oncombatfield","triggerType":"respevent","triggerTypeKey":1102,"_b4cmdActionList":{"actions":[{"slotIdx":1,"_isDisabled":true,"$type":"NodeCanvas.Tasks.Actions.SwapWeapon"},{"settingStr":"1,0","_isDisabled":true,"$type":"NodeCanvas.Tasks.Actions.SetSkillIcon"},{"rate":0.35,"servantID":10010601,"$type":"NodeCanvas.Tasks.Actions.OpenReduceSharp"}]},"_a4cmdActionList":{"actions":[{"$type":"NodeCanvas.Tasks.Actions.A_end"}]}},"_position":{"x":5592.334,"y":5062.337},"_comment":"","$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"11"},{"_roundInfo":{"execMode":"onlyCMDList","evtType":"none","triggerType":"Empty","_b4cmdActionList":{"actions":[{"servantID":10010601,"$type":"NodeCanvas.Tasks.Actions.EnergyFill2Full"},{"$type":"NodeCanvas.Tasks.Actions.A_begin"},{"wordStr":"\u6211\u7684\u80fd\u538b\u5df2\u5145\u6ee1\uff0c\u6ce8\u610f\u91ca\u653e\u6280\u80fd","icon":"021","delaytime":9.0,"isOperate":true,"enableSentenceMapping":true,"sentenceIdx":1,"$type":"NodeCanvas.Tasks.Actions.A_speak"}]},"_a4cmdActionList":{"actions":[{"delaytime":1.0,"$type":"NodeCanvas.Tasks.Actions.DelayTime"},{"$type":"NodeCanvas.Tasks.Actions.EndLesson"}]}},"_position":{"x":5576.667,"y":5316.669},"_comment":"","$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"21"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local Blackboard","_variables":{}},"derivedData":{"claimInfo":{"role":[],"stage":{}},"sentenceFName":"sentence_04004.txt","$type":"NodeCanvas.GuideLessonTrees.GuideLessonTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _deserializationFailed: 0
+  isInPool: 0
+  _claimInfo:
+    defaultBGM:
+  sentenceFileName: sentence_04004.txt
+  _defaultBGM: -1

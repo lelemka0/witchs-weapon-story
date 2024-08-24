@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7caa3d63b648fbb2d4bf8158705a88e, type: 3}
+  m_Name: lesson00122
+  m_EditorClassIdentifier:
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.GuideLessonTrees.GuideLessonTree","translation":{"x":-1938.0,"y":-4478.0},"zoomFactor":0.9856108,"nodes":[{"_roundInfo":{"_b4cmdActionList":{"actions":[{"x":-50,"$type":"NodeCanvas.Tasks.Actions.D_Begin"},{"enableSentenceMapping":true,"wordStr":"\u5728\u63a2\u7d22\u75b2\u60eb\u7684\u65f6\u5019\uff0c\u4e5f\u53ef\u4ee5\u53bb\u56de\u987e\u4e00\u4e0b\u89e3\u9501\u8fc7\u7684\u5267\u60c5\u5462~\u5c31\u50cf\u662f\u8bfb\u65e5\u8bb0\u4e00\u6837\u7b80\u5355\u5594\uff01","sentenceIdx":0,"$type":"NodeCanvas.Tasks.Actions.D_speak"}]},"_a4cmdActionList":{"actions":[{"$type":"NodeCanvas.Tasks.Actions.D_end"}]}},"_position":{"x":2610.0,"y":4440.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"2"},{"_roundInfo":{"triggerType":"root_hero","_b4cmdActionList":{"actions":[{"enableSentenceMapping":true,"sentenceIdx":1,"$type":"NodeCanvas.Tasks.Actions.FocusTrigger"}]}},"_position":{"x":2685.0,"y":4635.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"11"},{"_roundInfo":{"triggerType":"hero_story","_b4cmdActionList":{"actions":[{"enableSentenceMapping":true,"sentenceIdx":2,"$type":"NodeCanvas.Tasks.Actions.FocusTrigger"}]},"_a4cmdActionList":{"actions":[]}},"_position":{"x":2743.985,"y":4785.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"16"},{"_roundInfo":{"_b4cmdActionList":{"actions":[{"x":-50,"$type":"NodeCanvas.Tasks.Actions.D_Begin"},{"enableSentenceMapping":true,"wordStr":"\u5728\u8fd9\u91cc\u53ef\u4ee5\u91cd\u590d\u89c2\u770b\u5df2\u89e3\u9501\u8fc7\u7684[ff9c00]\u5267\u60c5[-]","sentenceIdx":3,"$type":"NodeCanvas.Tasks.Actions.D_speak"}]},"_a4cmdActionList":{"actions":[]}},"_position":{"x":2805.0,"y":4920.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"23"},{"_roundInfo":{"_b4cmdActionList":{"actions":[{"enableSentenceMapping":true,"wordStr":"\u56de\u987e[ff9c00]\u5267\u60c5[-]\u9700\u8981\u6d88\u8017\u4e00\u5b9a\u7684[ff9c00]\u68a6\u5453[-]\r","sentenceIdx":4,"$type":"NodeCanvas.Tasks.Actions.D_speak"}]},"_a4cmdActionList":{"actions":[]}},"_position":{"x":2835.0,"y":5085.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"31"},{"_roundInfo":{"_b4cmdActionList":{"actions":[{"enableSentenceMapping":true,"wordStr":"[ff9c00]\u68a6\u5453[-]\u53ef\u4ee5\u901a\u8fc7\u5b8c\u6210\u4efb\u52a1\u83b7\u5f97\r\u3002","sentenceIdx":5,"$type":"NodeCanvas.Tasks.Actions.D_speak"}]},"_a4cmdActionList":{"actions":[{"$type":"NodeCanvas.Tasks.Actions.D_end"},{"$type":"NodeCanvas.Tasks.Actions.EndLesson"}]}},"_position":{"x":2818.985,"y":5220.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"38"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"16"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"23"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"},{"_sourceNode":{"$ref":"23"},"_targetNode":{"$ref":"31"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"},{"_sourceNode":{"$ref":"31"},"_targetNode":{"$ref":"38"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local Blackboard","_variables":{}},"derivedData":{"claimInfo":{"role":[],"stage":{}},"sentenceFName":"sentence_00122.txt","$type":"NodeCanvas.GuideLessonTrees.GuideLessonTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _deserializationFailed: 0
+  isInPool: 0
+  _claimInfo:
+    defaultBGM:
+  sentenceFileName: sentence_00122.txt
+  _defaultBGM: -1

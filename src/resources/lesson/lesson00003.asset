@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7caa3d63b648fbb2d4bf8158705a88e, type: 3}
+  m_Name: lesson00003
+  m_EditorClassIdentifier:
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.GuideLessonTrees.GuideLessonTree","translation":{"x":-1791.0,"y":-4603.0},"zoomFactor":0.9905916,"nodes":[{"_roundInfo":{"_b4cmdActionList":{"actions":[{"bgPicStr":"","$type":"NodeCanvas.Tasks.Actions.C_Begin"}]},"_a4cmdActionList":{"actions":[]}},"_position":{"x":2700.0,"y":4995.0},"_comment":"\\\\\u9ed1\u5c4f","$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"2"},{"_roundInfo":{"_b4cmdActionList":{"actions":[{"enableSentenceMapping":true,"spName":"","wordStr":"[ff9900]\u57c3\u7678\u65af[-]\u8bc6\u522b\u7cfb\u7edf\u5df2\u542f\u52a8\r","sentenceIdx":0,"$type":"NodeCanvas.Tasks.Actions.C_speakAside"}]},"_a4cmdActionList":{"actions":[]}},"_position":{"x":2700.0,"y":5130.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"9"},{"_roundInfo":{"execMode":"skipUserAction","_b4cmdActionList":{"actions":[{"enableSentenceMapping":true,"spName":"\u7cfb\u7edf\u8bed\u97f3","wordStr":"\u8bf7\u786e\u8ba4\u60a8\u7684\u8eab\u4efd","sentenceIdx":1,"$type":"NodeCanvas.Tasks.Actions.C_speakAside"}]},"_a4cmdActionList":{"actions":[{"$type":"NodeCanvas.Tasks.Actions.C_end"},{"actionType":"StartTargetLesson","recID":5,"$type":"NodeCanvas.Tasks.Actions.EndLesson"}]}},"_position":{"x":2700.0,"y":5295.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"16"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"16"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local Blackboard","_variables":{}},"derivedData":{"claimInfo":{"role":[],"stage":{}},"sentenceFName":"sentence_00003.txt","$type":"NodeCanvas.GuideLessonTrees.GuideLessonTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _deserializationFailed: 0
+  isInPool: 0
+  _claimInfo:
+    defaultBGM:
+  sentenceFileName: sentence_00003.txt
+  _defaultBGM: -1

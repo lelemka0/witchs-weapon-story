@@ -1,0 +1,856 @@
+roles:
+  - name: 小怜
+    SN: "04"
+  - name: 安妮
+    SN: "21"
+  - name: SID探员
+    SN: "29"
+actionList:
+  - _comment: \\背景图：SoundOnly
+    actions:
+      - action: playBGM
+        soundId: "99120110014"
+      - action: background
+        bgPic: BG_SID_spSoundChannel
+      - action: delay
+        second: 0.5
+      - action: asideSpeak
+        sentenceIdx: 0
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 1
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 2
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 3
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 4
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 5
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 6
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 7
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 8
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 9
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 10
+  - _comment: C_begin:\\斯蒂尔蒙特收容研究中心外景
+    actions:
+      - action: background
+        bgPic: BG_RC_outside
+      - action: asideSpeak
+        sentenceIdx: 11
+      - action: stopBGM
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 12
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "15"
+        sentenceIdx: 13
+      - action: playBGM
+        soundId: 99120100250
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "06"
+        sentenceIdx: 14
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "13"
+        sentenceIdx: 15
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "02"
+        sentenceIdx: 16
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "03"
+        sentenceIdx: 17
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "03"
+        sentenceIdx: 18
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "08"
+        sentenceIdx: 19
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "14"
+        sentenceIdx: 20
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "06"
+        sentenceIdx: 21
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "15"
+        sentenceIdx: 22
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "02"
+        sentenceIdx: 23
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "03"
+        sentenceIdx: 24
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "08"
+        sentenceIdx: 25
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 26
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "07"
+        sentenceIdx: 27
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "04"
+        sentenceIdx: 28
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "08"
+        sentenceIdx: 29
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 30
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "07"
+        sentenceIdx: 31
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 1
+      - action: roleOut
+        roleIdx: 0
+      - action: asideSpeak
+        sentenceIdx: 32
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 2
+        faceSN: ？？？
+        sentenceIdx: 33
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 34
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "06"
+        sentenceIdx: 35
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 0
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "15"
+        sentenceIdx: 36
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 37
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 2
+      - action: roleSpeak
+        roleIdx: 2
+        sentenceIdx: 38
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "04"
+        sentenceIdx: 39
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "04"
+        sentenceIdx: 40
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 0
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 41
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 2
+        sentenceIdx: 42
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 43
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 2
+      - action: roleSpeak
+        roleIdx: 2
+        sentenceIdx: 44
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "15"
+        sentenceIdx: 45
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 0
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "04"
+        sentenceIdx: 46
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 47
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 2
+      - action: roleSpeak
+        roleIdx: 2
+        sentenceIdx: 48
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "15"
+        sentenceIdx: 49
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "15"
+        sentenceIdx: 50
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 51
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "05"
+        sentenceIdx: 52
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 2
+      - action: roleSpeak
+        roleIdx: 2
+        sentenceIdx: 53
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 54
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 55
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "02"
+        sentenceIdx: 56
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 2
+        sentenceIdx: 57
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 2
+      - action: roleSpeak
+        roleIdx: 2
+        sentenceIdx: 58
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "02"
+        sentenceIdx: 59
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "01"
+        sentenceIdx: 60
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "06"
+        sentenceIdx: 61
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "06"
+        sentenceIdx: 62
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "06"
+        sentenceIdx: 63
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "14"
+        sentenceIdx: 64
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "07"
+        sentenceIdx: 65
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "04"
+        sentenceIdx: 66
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "15"
+        sentenceIdx: 67
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 1
+        faceSN: "02"
+        sentenceIdx: 68
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "15"
+        sentenceIdx: 69
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "13"
+        sentenceIdx: 70
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 1
+      - action: roleOut
+        roleIdx: 0
+      - action: asideSpeak
+        sentenceIdx: 71
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 2
+        sentenceIdx: 72
+  - _comment: null
+    actions:
+      - action: roleSpeak
+        roleIdx: 2
+        sentenceIdx: 73
+  - _comment: null
+    actions:
+      - action: roleOut
+        roleIdx: 2
+      - action: roleSpeak
+        roleIdx: 2
+        sentenceIdx: 74
+  - _comment: null
+    actions:
+      - action: stopBGM
+      - action: end
+      - action: roleSpeak
+        roleIdx: 0
+        faceSN: "15"
+        sentenceIdx: 75
+sentences:
+  - SN: 1
+    name: N/A@探员A
+    content:
+      zh-Hans: 各小组注意，前方相位波动正在衰减！
+  - SN: 2
+    name: N/A@探员A
+    content:
+      zh-Hans: 敌人随时可能出现！\n坚守位置准备迎击！！
+      zh-Hant: 敵人隨時可能出現！ \n堅守崗位準備迎擊！ ！
+      jp: 敵がいつ現れても、おかしくない状況だ！\n各位ポジションを守れ　迎撃準備をっ！！
+      kr: "적이 언제 나타날지 모른다!\\n각 위치에서 공격에 대비하라! "
+      en: The enemy may emerge at any minute! \nHold position and get ready to fight!
+  - SN: 3
+    name: N/A@探员B
+    content:
+      zh-Hans: ……报、报告！
+      zh-Hant: ……報、報告！
+      jp: ……報っ、報告です！
+      kr: …보，보고！
+      en: … Sir!
+  - SN: 4
+    name: N/A@探员B
+    content:
+      zh-Hans: 目视区域内发现两个人形单位……
+  - SN: 5
+    name: N/A@探员A
+    content:
+      zh-Hans: 人类……？\n模因检测的结果是？？
+  - SN: 6
+    name: N/A@探员B
+    content:
+      zh-Hans: 色相是……\n绿色！！
+      zh-Hant: 色相是……\n綠色！ ！
+      jp: 色別反応は……グリーンですッ！！
+      kr: 색상은……\n녹색입니다！！
+      en: The hue is… \nGreen!!
+  - SN: 7
+    name: N/A@探员B
+    content:
+      zh-Hans: 似乎是两个小姑娘……\n不要开火！不要开火！
+      zh-Hant: 似乎是兩個小女孩……\n不要開火！ 不要開火！
+      jp: どうやら2人の少女のようです……\nオイっ！　撃つなっ！　撃つなっ！
+      kr: 소녀 2명으로 보입니다……\n사격 중지! 사격 중지!
+      en: Looks like two little girls… \nHold your fire!
+  - SN: 8
+    name: N/A@探员A
+    content:
+      zh-Hans: ……
+      zh-Hant: ……
+      jp: ……
+      kr: ……
+      en: …
+  - SN: 9
+    name: N/A@探员A
+    content:
+      zh-Hans: 刚接到命令，优先将她们控制并带回总部。\n派一个高级探员去交涉——
+  - SN: 10
+    name: N/A@探员A
+    content:
+      zh-Hans: 狙击手注意警戒，交涉期间如果目标有异动立刻处决！！
+  - SN: 11
+    name: N/A@探员B
+    content:
+      zh-Hans: 明白！
+      zh-Hant: 是！
+      jp: 了解です！
+      kr: 네!
+      en: Understood!
+  - SN: 12
+    name: N/A
+    content:
+      zh-Hans: 我和安妮警戒的向研究中心的出口移动。
+  - SN: 13
+    name: N/A
+    content:
+      zh-Hans: 然而迎接我们的，除了那条熟悉的街道，还有一排临时路障和在路障后面端着武器严阵以待的特工。
+  - SN: 14
+    name: 小怜
+    content:
+      zh-Hans: 怎、怎么突然冒出这么多人？！
+      zh-Hant: 怎、怎麼突然冒出這麼多人？ ！
+      jp: な、なんで、こんな大勢の人がっ！？
+      kr: "어，어디서 이렇게 많은 사람들이 ?! "
+      en: Wh-why are there so many people here all of a sudden?!
+  - SN: 15
+    name: 小怜
+    content:
+      zh-Hans: 啊，安妮！\n快，快把我的衣服换回去！！
+  - SN: 16
+    name: 小怜
+    content:
+      zh-Hans: 这么羞耻的衣服……\n实在不想被人看到啊……
+      zh-Hant: ""
+      jp: こ…こんな恥ずかしい格好……\nこれ以上見られたくない……
+      kr: ""
+      en: ""
+  - SN: 17
+    name: 安妮
+    content:
+      zh-Hans: 诶？第一反应居然是在意这种事吗？
+  - SN: 18
+    name: 安妮
+    content:
+      zh-Hans: 你的衣服都好好的保存在我这，不用担心~
+  - SN: 19
+    name: 安妮
+    content:
+      zh-Hans: 一定要换掉的话，你就把这套『战服』脱掉，再穿回原来那些松松垮垮的衣服就是了~
+  - SN: 20
+    name: 安妮
+    content:
+      zh-Hans: 不过前面有很多男人欸……\n真的要当着他们的面换衣服吗？
+      zh-Hant: ""
+      jp: でも～、目の前には男の人とか～が大勢いるね～\n本当に彼らの目の前で着替えちゃうのかな～？
+      kr: ""
+      en: ""
+  - SN: 21
+    name: 小怜
+    content:
+      zh-Hans: 啊呜……这……\n（明明我也是男人啊……）
+  - SN: 22
+    name: 安妮
+    content:
+      zh-Hans: 话说你刚才穿的怎么都是男装啊？\n难道……
+  - SN: 23
+    name: 小怜
+    content:
+      zh-Hans: 欸──？\n你以前也遇到过这种状况吗？？
+  - SN: 24
+    name: 小怜
+    content:
+      zh-Hans: （也是呢……看样子安妮应该不是普通人吧？）
+  - SN: 25
+    name: 小怜
+    content:
+      zh-Hans: （如果是她的话，或许知道我的身体为什么……）
+  - SN: 26
+    name: 安妮
+    content:
+      zh-Hans: 恩恩！我理解的……
+  - SN: 27
+    name: N/A
+    content:
+      zh-Hans: 真的吗？！
+  - SN: 28
+    name: 安妮
+    content:
+      zh-Hans: 你是偷拿了自己喜欢的男生的衣服自己穿对吧？
+  - SN: 29
+    name: 小怜
+    content:
+      zh-Hans: 理解个头啊！！！
+      zh-Hant: 理解個頭啊！ ！！
+      jp: ダメだ、分かってねえッ！！！
+      kr: 이해하긴 개뿔!!
+      en: So that’s what you understand??
+  - SN: 30
+    name: 安妮
+    content:
+      zh-Hans: 嗯嗯~其实[%rolename%]是那种会迷恋异性味道的体质吧？不用难为情的啦……
+      zh-Hant: 嗯嗯～其實[%rolename%]是那種會迷戀異性體味的人吧？ 不用難為情的啦……
+      jp: うんうん～～本当は[%rolename%]って異性の\n匂いに夢中になっちゃう人なんでしょう？\n恥ずかしがらなくていいから……
+      kr: 으응~사실 [%rolename%]도 이성의 냄새에 반하는 체질이구나? 곤란해 할 필요 없어…
+      en: Yup[%rolename%], you are attracted to other’s body odor, aren’t you? No need
+        to feel shy…
+  - SN: 31
+    name: 小怜
+    content:
+      zh-Hans: 不要做出一幅“虽然你是变态但我会包容你”的表情啊！！！
+      zh-Hant: 喂！ 不要做出一副「雖然妳是變態但我會包容妳」的表情啊！ ！！
+      jp: そういう「変態だけど受け入れてあげるわ」って表情やめろッ！！！
+      kr: “넌 변태지만 난 널 이해해” 같은 표정 짓지 말라고! ! !
+      en: Please… Don't put on this “I-know-you’re-a-pervert-and-I-don’t-mind” look!
+  - SN: 32
+    name: 小怜
+    content:
+      zh-Hans: 我为什么会变成这样，还是完全没头绪……
+  - SN: 33
+    name: N/A
+    content:
+      zh-Hans: 忽然，一个戴着墨镜的黑衣女性穿过警戒线向我们走来。
+  - SN: 34
+    name: ？？？
+    content:
+      zh-Hans: 你们两个站住！\n把手放在我能看到的地方！
+  - SN: 35
+    name: N/A
+    content:
+      zh-Hans: 她用不容置疑的语气对我们喊话。
+  - SN: 36
+    name: 小怜
+    content:
+      zh-Hans: 诶……？\n是把我们当成坏人了吗？
+  - SN: 37
+    name: 小怜
+    content:
+      zh-Hans: （等等，那个人胸口戴的徽章……）
+  - SN: 38
+    name: N/A
+    content:
+      zh-Hans: 正圆形、环套式的盾牌徽记——\n该不会是……
+  - SN: 39
+    name: ？？？
+    content:
+      zh-Hans: 两位，我是SID的探员。\n为了避免你们受伤，请站在那里不要乱动。
+  - SN: 40
+    name: 小怜
+    content:
+      zh-Hans: 果然是秘密情报局（SID）的家伙！\n这下惨了！！！
+  - SN: 41
+    name: 小怜
+    content:
+      zh-Hans: 我脑中瞬间闪过一大堆SID特工半夜破门而入抓捕间谍的新闻画面。
+  - SN: 42
+    name: 小怜
+    content:
+      zh-Hans: 还有诸如“秘密监狱”、“洗脑拷问”、“暗杀小组”之类的都市传说……
+  - SN: 43
+    name: SID探员
+    content:
+      zh-Hans: 核心封锁区报告，两名目标未展现攻击意图。\n暂定威胁等级D。
+  - SN: 44
+    name: N/A
+    content:
+      zh-Hans: 探员扶着耳麦报告一番后，立刻开始了盘问。
+  - SN: 45
+    name: SID探员
+    content:
+      zh-Hans: 你们是什么人？\n在这里鬼鬼祟祟地做什么？
+  - SN: 46
+    name: 小怜
+    content:
+      zh-Hans: 我是本市的学生……
+  - SN: 47
+    name: 小怜
+    content:
+      zh-Hans: 我们只、只是来做校外教学，参观研究所……
+  - SN: 48
+    name: N/A
+    content:
+      zh-Hans: 身形干练的女特工露出一个不屑的表情。
+  - SN: 49
+    name: SID探员
+    content:
+      zh-Hans: 是吗──\n参观？研究所？
+  - SN: 50
+    name: 小怜
+    content:
+      zh-Hans: （糟糕……）
+  - SN: 51
+    name: 小怜
+    content:
+      zh-Hans: 我忽然想起来，因为『洛斯金杯』消失的事，研究所昨晚就出于戒严状态了。
+  - SN: 52
+    name: 小怜
+    content:
+      zh-Hans: 这种时候我们大摇大摆的从里面走出来，还声称自己只是参观……简直太可疑了！
+  - SN: 53
+    name: 小怜
+    content:
+      zh-Hans: 果然，那个特工似乎从耳机里接到了什么指令，表情严肃的盯着我们。
+  - SN: 54
+    name: SID探员
+    content:
+      zh-Hans: 收到上面的命令，请二位跟我们走一趟吧。
+  - SN: 55
+    name: N/A
+    content:
+      zh-Hans: 短短几秒内，我们就被涌上来的几个特工围住。
+  - SN: 56
+    name: N/A
+    content:
+      zh-Hans: 不远处的道路尽头，一排士兵用黑压压的枪口指着我们。
+  - SN: 57
+    name: 安妮
+    content:
+      zh-Hans: "[%rolename%]，这些家伙看起来很不妙呢…\\n不如我们看准时机逃掉吧。"
+      zh-Hant: "[%rolename%]，這些傢伙看起來很不妙呢……\\n不如我們看準時機逃走吧。"
+      jp: "[%rolename%]こいつらヤバイんじゃない……\\n隙を見て逃げよう？"
+      kr: "[%rolename%]，이 녀석들 심상치 않아 보이는데…\\n기회를 봐서 도망가자."
+      en: "[%rolename%], they look scary… \\nWe’d better run when the time is right."
+  - SN: 58
+    name: SID探员
+    content:
+      zh-Hans: 请放心，我们不会伤害你们的。\n只要你们好好配合调查，事情就能和平解决。
+      zh-Hant: 請放心，我們不會傷害妳們的。 \n只要妳們好好配合調查，事情就能和平解決。
+      jp: 安心して下さい。\nあなた達の身の安全は保障いたします。\nご協力さえして頂けるならば、穏便な解決へと\n最善を尽くします。
+      kr: "해치지 않을 테니 안심하세요. \\n조사에 협조해주시면 잘 해결될 겁니다. "
+      en: Don't worry. We won't hurt you. \nAs long as you cooperate, everything will
+        be dealt with peacefully.
+  - SN: 59
+    name: SID探员
+    content:
+      zh-Hans: 『异质物』失踪的事情非同小可，可能引发各种超出常识的事件，请你们理解。
+  - SN: 60
+    name: 小怜
+    content:
+      zh-Hans: （超出常识的事件……吗？）
+      zh-Hant: （超自然現象……嗎？ ）
+      jp: （常識外の事件……か…）
+      kr: （상식을 벗어나는 일……？）
+      en: (Anything… beyond comprehension?)
+  - SN: 61
+    name: 小怜
+    content:
+      zh-Hans: 好，明白了，我跟你们走。
+      zh-Hant: 好，明白了，我跟妳們走。
+      jp: 分かりました、ついて行きます。
+      kr: "좋아요. 당신들과 갈게요. "
+      en: Alright, got it. I'll go with you.
+  - SN: 62
+    name: 安妮
+    content:
+      zh-Hans: 哎？？怎么就跟着走了啊！\n喂！[%rolename%]！
+      zh-Hant: 哎？ ？怎麼就跟著走了？ \n喂！ [%rolename%]！
+      jp: えっ？？　なんでついて行っちゃうのっ？　\nねえっ！　[%rolename%]っ！
+      kr: 뭐？？왜 따라가겠다는 거야!\n야！[%rolename%]！
+      en: Er? Why are you going with them? \nHey! [%rolename%]!
+  - SN: 63
+    name: 小怜
+    content:
+      zh-Hans: 别、别拽了！笨蛋裙子要拽掉了！
+      zh-Hant: 別、別扯了啦！ 裙子會被扯掉啦！
+      jp: ひ、引っ張るなっ！　バカっ！\nスカートが脱げるだろっ！
+      kr: 잡아당기지 마! 바보야! 치마가 내려가잖아!
+      en: St… stop dragging me! My skirt is almost off, you idiot!
+  - SN: 64
+    name: 安妮
+    content:
+      zh-Hans: 你才是笨蛋啊！为什么要跟这些可疑的家伙走，如果被拉到什么地方卖掉了怎么办？！
+  - SN: 65
+    name: 小怜
+    content:
+      zh-Hans: 我一个大男人有什么好……
+      zh-Hant: 我一個大男人有什麼好……
+      jp: 俺みたいな男にそんな事……
+      kr: 나 같은 남자애가 팔려가기는 무슨……
+      en: Who would buy a guy…
+  - SN: 66
+    name: 小怜
+    content:
+      zh-Hans: 不对、谁会找来这么多人大张旗鼓的拐卖人口啊！
+      zh-Hant: 不對，誰會這麼大陣仗地把人拐走啊！
+      jp: そもそも人を攫って売るために、\n誰がこんな大人数を用意するんだよ！
+      kr: 아니，누가 이렇게 대대적으로 인신매매를 하냐!
+      en: Ahem… I mean… what kind of human traffickers would go about in this way?
+  - SN: 67
+    name: 安妮
+    content:
+      zh-Hans: "[%rolename%]一定没见过莱博娜群岛的黑帮吧……"
+      zh-Hant: "[%rolename%]一定沒見過萊博娜群島的黑幫吧……"
+      jp: "[%rolename%]は絶対リバーナ諸島のマフィアを\\n見た事ないわね……"
+      kr: "[%rolename%]，너는 레보나 섬의 조폭들을 본 적 없지?"
+      en: "[%rolename%], you must've never seen the gangs on the Lebona Islands."
+  - SN: 68
+    name: 小怜
+    content:
+      zh-Hans: 总之……说不定能搞清楚一些事呢\n还是乖乖跟她走吧……
+      zh-Hant: 總之……說不定跟去能搞清楚一些事，\n還是先乖乖跟她走吧……
+      jp: とにかく……\n何かが分かるかもしれないじゃないか！\n大人しくついていこう……
+      kr: 어쨌든……뭔가 알아낼 수 있을지도 몰라\n우선 따라가보자……
+      en: Anyway… Maybe we could clear up some doubts. \nSo we'd better go with her…
+  - SN: 69
+    name: 安妮
+    content:
+      zh-Hans: 好吧，那我也跟着你……
+  - SN: 70
+    name: 小怜
+    content:
+      zh-Hans: 那个，方便的话能不能先给我一件外套。
+      zh-Hant: 那個，方便的話能、能不能先給我一件外套。
+      jp: あの～、できればコートを1枚もらえませんか？
+      kr: 저기，가능하면 자켓 하나만 빌려주세요.
+      en: Uh, if you don’t mind, could you pass me a coat?
+  - SN: 71
+    name: 小怜
+    content:
+      zh-Hans: 这件衣服实在有点……
+      zh-Hant: 這件衣服實在有點……
+      jp: この服はさすがにちょっと……
+      kr: 옷이 조금……
+      en: This suit is too…
+  - SN: 72
+    name: N/A
+    content:
+      zh-Hans: 穿着女装被众人围观，实在是浑身不舒服。
+      zh-Hant: 穿著女裝被眾人圍觀，實在是渾身不舒服。
+      jp: 女性用の服を着ている姿を見られ続けるなんて、身体中がむず痒くて仕方がない。
+      kr: 여자 옷을 입고 시선을 받으니 온몸이 불편하다.
+      en: It’s so awkward to get people's attention in a girl's suit.
+  - SN: 73
+    name: SID探员
+    content:
+      zh-Hans: ……好吧，我申请一下。
+  - SN: 74
+    name: SID探员
+    content:
+      zh-Hans: 那位探员走远几步，对着耳机小声说了几句话。
+  - SN: 75
+    name: SID探员
+    content:
+      zh-Hans: ……抱歉，长官说“这身衣服很可爱”\n否决了你的申请。
+  - SN: 76
+    name: 小怜
+    content:
+      zh-Hans: ……到底是什么样的长官啊！！

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7caa3d63b648fbb2d4bf8158705a88e, type: 3}
+  m_Name: lesson00910
+  m_EditorClassIdentifier:
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.GuideLessonTrees.GuideLessonTree","translation":{"x":-1978.0,"y":-4645.0},"zoomFactor":0.9744375,"nodes":[{"_roundInfo":{"_b4cmdActionList":{"actions":[{"$type":"NodeCanvas.Tasks.Actions.C_Begin"},{"enableSentenceMapping":true,"_roleIdx":0,"faceStr":"01","spRoleName":"\u5b89\u59ae","wordStr":"Helloooooooo~","sentenceIdx":0,"$type":"NodeCanvas.Tasks.Actions.C_roleSpeak"}]},"_a4cmdActionList":{"actions":[]}},"_position":{"x":2715.0,"y":4965.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"2"},{"_roundInfo":{"_b4cmdActionList":{"actions":[{"enableSentenceMapping":true,"_roleIdx":0,"faceStr":"01","spRoleName":"\u5b89\u59ae","wordStr":"\u606d\u559c\uff0c\u4f60\u5728\u672c\u6b21\u5192\u9669\u4e2d\u5df2\u7ecf\u63a5\u8fd1[ff9c00]\u5b66\u56ed\u90fd\u5e02[-]\u7684\u771f\u76f8\u4e86\uff01","sentenceIdx":1,"$type":"NodeCanvas.Tasks.Actions.C_roleSpeak"}]},"_a4cmdActionList":{"actions":[]}},"_position":{"x":2715.0,"y":5070.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"10"},{"_roundInfo":{"_b4cmdActionList":{"actions":[{"enableSentenceMapping":true,"_roleIdx":0,"faceStr":"01","spRoleName":"\u5b89\u59ae","wordStr":"\u5728\u4e0b\u6b21\u76f8\u9047\u65f6\uff08\u516c\u6d4b\uff09\uff0c\u8bf7\u4f7f\u7528\u76f8\u540c\u8d26\u53f7\u767b\u9646\u6e38\u620f\uff0c\u4f60\u4f1a\u6536\u5230\u4e00\u4efd\u4e13\u5c5e\u793c\u7269\u54e6\uff01","sentenceIdx":2,"$type":"NodeCanvas.Tasks.Actions.C_roleSpeak"}]},"_a4cmdActionList":{"actions":[{"$type":"NodeCanvas.Tasks.Actions.C_end"},{"$type":"NodeCanvas.Tasks.Actions.EndLesson"}]}},"_position":{"x":2715.0,"y":5160.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"17"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"10"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"},{"_sourceNode":{"$ref":"10"},"_targetNode":{"$ref":"17"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local Blackboard","_variables":{}},"derivedData":{"claimInfo":{"role":[{"roleSN":"21","name":"\u5b89\u59ae"}],"stage":{}},"sentenceFName":"sentence_00910.txt","$type":"NodeCanvas.GuideLessonTrees.GuideLessonTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _deserializationFailed: 0
+  isInPool: 0
+  _claimInfo:
+    defaultBGM:
+  sentenceFileName: sentence_00910.txt
+  _defaultBGM: -1

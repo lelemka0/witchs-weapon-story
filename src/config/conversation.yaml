@@ -1,0 +1,58 @@
+conversation:
+  width: 1024
+  height: 172
+  x: 0
+  y: 404
+resources:
+  textBoxBG:
+    img: /resources/conversation/TextboxBG.png
+    width: 1298
+    height: 157
+    x: 0
+    y: 0
+  roleNameBox:
+    img: /resources/conversation/ConversationTextUI.png
+    width: 330
+    height: 60
+    x: 617
+    y: 448
+layout:
+  textBoxBG:
+    type: image
+    scale: 0.75
+    x: 25.25
+    y: 36
+  roleNameBox:
+    type: image
+    scale: 0.75
+    x: 248
+    y: 0
+  roleNameText:
+    type: text
+    fillStyle: "32px"
+    maxLine: 1
+    wordPerLine: 6
+    x: 270
+    y: 5
+    width: 200
+    height: 32
+  speakText:
+    type: text
+    maxLine: 2
+    wordPerLine: 21
+    lineSpace: 20
+    fillStyle: "32px"
+    x: 176
+    y: 56
+    width: 672
+    height: 85
+#  nextButton:
+#    type: script
+#    x: 
+#    y: 
+#    width: 
+#    height: 
+#    script: |
+#      layer.canvas.
+    
+  

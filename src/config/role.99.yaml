@@ -1,0 +1,219 @@
+SN: "99"
+name: null
+path: \resources\role\role99.png
+face:
+  path: \resources\role\face\face99.png
+  differences:
+    "55":
+      name: "023255"
+      x: 274
+      y: 811
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "56":
+      name: "023256"
+      x: 137
+      y: 811
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "57":
+      name: "023257"
+      x: 548
+      y: 811
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "60":
+      name: "023260"
+      x: 0
+      y: 704
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "61":
+      name: "023261"
+      x: 822
+      y: 811
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "62":
+      name: "023262"
+      x: 685
+      y: 811
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "63":
+      name: "023263"
+      x: 0
+      y: 811
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "64":
+      name: "023264"
+      x: 274
+      y: 918
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "65":
+      name: "023265"
+      x: 137
+      y: 918
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "66":
+      name: "023266"
+      x: 0
+      y: 918
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "67":
+      name: "023267"
+      x: 411
+      y: 918
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "70":
+      name: "023270"
+      x: 822
+      y: 918
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "71":
+      name: "023271"
+      x: 685
+      y: 918
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "72":
+      name: "023272"
+      x: 548
+      y: 918
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "73":
+      name: "023273"
+      x: 411
+      y: 811
+      width: 136
+      height: 106
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+_comment: null
+options:
+  scale: 0.75

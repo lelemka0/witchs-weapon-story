@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7caa3d63b648fbb2d4bf8158705a88e, type: 3}
+  m_Name: lesson00142
+  m_EditorClassIdentifier:
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.GuideLessonTrees.GuideLessonTree","translation":{"x":-1484.0,"y":-3080.0},"zoomFactor":0.7500089,"nodes":[{"_roundInfo":{"execMode":"onlyCMDList","evtType":"none","triggerType":"Empty","_b4cmdActionList":{"actions":[{"$type":"NodeCanvas.Tasks.Actions.ReturnMainScene"}]},"_a4cmdActionList":{"actions":[]}},"_position":{"x":3210.0,"y":4395.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"2"},{"_roundInfo":{"triggerType":"root_guidequest","_b4cmdActionList":{"actions":[{"sentenceIdx":0,"$type":"NodeCanvas.Tasks.Actions.FocusTrigger"}]},"_a4cmdActionList":{"actions":[]}},"_position":{"x":3255.0,"y":4515.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"9"},{"_roundInfo":{"triggerType":"quest_items","triggerTypeKey":509005022,"_b4cmdActionList":{"actions":[{"sentenceIdx":1,"$type":"NodeCanvas.Tasks.Actions.FocusTrigger"}]},"_a4cmdActionList":{"actions":[]}},"_position":{"x":3315.0,"y":4665.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"16"},{"_roundInfo":{"triggerType":"quest_go","_b4cmdActionList":{"actions":[{"sentenceIdx":2,"$type":"NodeCanvas.Tasks.Actions.FocusTrigger"}]},"_a4cmdActionList":{"actions":[{"$type":"NodeCanvas.Tasks.Actions.EndLesson"}]}},"_position":{"x":3315.0,"y":4875.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"23"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"16"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"23"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local Blackboard","_variables":{}},"derivedData":{"claimInfo":{"role":[],"stage":{}},"sentenceFName":"sentence_00142.txt","$type":"NodeCanvas.GuideLessonTrees.GuideLessonTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _deserializationFailed: 0
+  isInPool: 0
+  _claimInfo:
+    defaultBGM:
+  sentenceFileName: sentence_00142.txt
+  _defaultBGM: -1

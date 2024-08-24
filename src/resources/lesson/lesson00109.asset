@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7caa3d63b648fbb2d4bf8158705a88e, type: 3}
+  m_Name: lesson00109
+  m_EditorClassIdentifier:
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.GuideLessonTrees.GuideLessonTree","translation":{"x":-2030.0,"y":-4691.0},"zoomFactor":0.9854087,"nodes":[{"_roundInfo":{"execMode":"basedOnEvent","evtType":"onunitcall","triggerType":"respevent","_a4cmdActionList":{"actions":[{"delaytime":1.0,"$type":"NodeCanvas.Tasks.Actions.DelayTime"},{"$type":"NodeCanvas.Tasks.Actions.BattlePause"}]}},"_position":{"x":2775.0,"y":4860.0},"_comment":"\\\\\u73a9\u5bb6\u8f93\u5165\u540d\u5b57","$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"2"},{"_roundInfo":{"_b4cmdActionList":{"actions":[{"$type":"NodeCanvas.Tasks.Actions.D_Begin"},{"servantID":10010401,"$type":"NodeCanvas.Tasks.Actions.EnergyFill2Full"},{"maskExpectedOffset":{"y":-500.0},"$type":"NodeCanvas.Tasks.Actions.T_showMask"},{"enableSentenceMapping":true,"wordStr":"[ff9c00]\u5212\u52a8\u5934\u50cf[-]\u91ca\u653e\u62c9\u6590\u5c14\u7684\\n\u53ec\u5524\u6280\u2500\u2500\u6069\u60e0\u4e4b\u96e8\uff0c\u6ecb\u517b\u4f17\u751f\uff01\r","sentenceIdx":0,"$type":"NodeCanvas.Tasks.Actions.D_speak"}]},"_a4cmdActionList":{"actions":[{"$type":"NodeCanvas.Tasks.Actions.BattleResume"},{"$type":"NodeCanvas.Tasks.Actions.T_end"},{"$type":"NodeCanvas.Tasks.Actions.D_end"},{"$type":"NodeCanvas.Tasks.Actions.EndLesson"}]}},"_position":{"x":2775.0,"y":5160.0},"$type":"NodeCanvas.GuideLessonTrees.GuideRoundNode","$id":"8"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"8"},"$type":"NodeCanvas.GuideLessonTrees.GLTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local Blackboard","_variables":{}},"derivedData":{"claimInfo":{"role":[],"stage":{}},"sentenceFName":"sentence_00109.txt","$type":"NodeCanvas.GuideLessonTrees.GuideLessonTree+DerivedSerializationData"}}'
+  _objectReferences: []
+  _deserializationFailed: 0
+  isInPool: 0
+  _claimInfo:
+    defaultBGM:
+  sentenceFileName: sentence_00109.txt
+  _defaultBGM: -1

@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 5e8b1987a70ba7a4ca5caada664c8934
+timeCreated: 1723844960
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  name:
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Stroke
+  fontNames:
+  - Stroke
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData:
+  assetBundleName: ui/font
+  assetBundleVariant:

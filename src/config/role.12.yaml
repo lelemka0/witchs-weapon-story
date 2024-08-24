@@ -1,0 +1,97 @@
+SN: "12"
+name: null
+path: \resources\role\role12.png
+face:
+  path: \resources\role\face\face12.png
+  width: 150
+  height: 128
+  x: 140
+  y: 127
+  differences:
+    "61":
+      name: "02261"
+      x: 151
+      y: 255
+      width: 150
+      height: 128
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "62":
+      name: "02262"
+      x: 0
+      y: 384
+      width: 150
+      height: 128
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "63":
+      name: "02263"
+      x: 151
+      y: 384
+      width: 150
+      height: 128
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "64":
+      name: "02264"
+      x: 302
+      y: 384
+      width: 150
+      height: 128
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "65":
+      name: "02265"
+      x: 0
+      y: 126
+      width: 150
+      height: 128
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "66":
+      name: "02266"
+      x: 0
+      y: 255
+      width: 150
+      height: 128
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+_comment: null
+options:
+  scale: 0.75

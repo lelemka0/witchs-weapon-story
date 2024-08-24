@@ -1,0 +1,142 @@
+SN: "01"
+name: null
+path: \resources\role\role01.png
+width: 426
+height: 756
+face:
+  path: \resources\role\face\face01.png
+  width: 152
+  height: 170
+  x: 140
+  y: 127
+  differences:
+    "54":
+      name: "0154"
+      x: 0
+      y: 0
+      width: 152
+      height: 170
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "55":
+      name: "0155"
+      x: 153
+      y: 0
+      width: 152
+      height: 170
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "01":
+      name: "0101"
+      x: 153
+      y: 171
+      width: 152
+      height: 170
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "02":
+      name: "0102"
+      x: 0
+      y: 171
+      width: 152
+      height: 170
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "03":
+      name: "0103"
+      x: 0
+      y: 342
+      width: 152
+      height: 170
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "04":
+      name: "0104"
+      x: 306
+      y: 342
+      width: 152
+      height: 170
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "05":
+      name: "0105"
+      x: 153
+      y: 342
+      width: 152
+      height: 170
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "06":
+      name: "0106"
+      x: 306
+      y: 0
+      width: 152
+      height: 170
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+    "07":
+      name: "0107"
+      x: 306
+      y: 171
+      width: 152
+      height: 170
+      borderLeft: 0
+      borderRight: 0
+      borderTop: 0
+      borderBottom: 0
+      paddingLeft: 0
+      paddingRight: 0
+      paddingTop: 0
+      paddingBottom: 0
+_comment: null
+options:
+  scale: 0.75
+  offset: -1

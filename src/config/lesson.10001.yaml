@@ -1,0 +1,139 @@
+roles:
+  - name: 奥古斯塔
+    SN: "99"
+actionList:
+  - _comment: this.defaultBGM
+    actions:
+      - action: playBGM
+        soundId: "99120100692"
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 0
+      - action: background
+        bgPic: BG_shot_goodAge.png
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 1
+      - action: background
+        bgPic: BG_shot_magicalEye.png
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 2
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 3
+      - action: background
+        bgPic: BG_shot_cityRelic_orig.png
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 4
+      - action: background
+        bgPic: BG_Shot_storyBGPol.png
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 5
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 6
+      - action: background
+        bgPic: BG_shot_witchPower.png
+  - _comment: null
+    actions:
+      - action: asideSpeak
+        sentenceIdx: 7
+  - _comment: null
+    actions:
+      - action: end
+      - action: asideSpeak
+        sentenceIdx: 8
+sentences:
+  - SN: 1
+    name: N/A@记录
+    content:
+      zh-Hans: 这是一个科技与超自然力齐头并进的繁荣时代。
+      zh-Hant: 這是一個科技與超自然力齊頭並進的繁榮時代。
+      jp: "[ff9900]『異質物』[-]───────\\n超常現象を引き起こす情報、または媒介。\\nそれは人類が与り知らぬ原理の集合体であり、\\n人々\
+        の生活に多大な影響をもたらした。"
+      kr: 과학과 초자연적인 힘이 동시에 번창하는 시대이다.
+      en: This is a booming era in which technology and supernatural power progress
+        hand in hand.
+  - SN: 2
+    name: N/A@记录
+    content:
+      zh-Hans: 超自然力顶点的是由六大国各自掌握的，人们眼中的『神迹』。
+      zh-Hant: 被視為超自然力頂點的是由六大國各自掌握的，\n人們眼中的「神蹟」，
+      jp: この力は科学の既存解釈を崩壊させ、\n新時代へと導いたのは言うまでもない。\n力は火種となり、七年戦争と呼ばれる\n大戦へと発展する原因にもなった。
+      kr: 초자연적인 힘의 최첨단 기술은 바로 최고급 이물질이고 \n 6개 국가가  각자 파악하고 있다.\n민중과 미디어는 이런 힘을 『기적』이라
+        불렀다.
+      en: "The most amazing supernatural power is controlled by the six major
+        nations:"
+  - SN: 3
+    name: N/A@记录
+    content:
+      zh-Hans: 顶级[ff9900]『异质物』[-]。
+      zh-Hant: 頂級[ff9900]「異質物」[-]。
+      jp: 故に人々は神の力だと恐れ崇め、それはいつしか\n[ff9900]『聖痕』[-]と敬称されるようになる。
+      kr: 최고급 [ff9900]『이물질』[-].
+      en: "[ff9900]Substance H[-], a.k.a. The Divine Touch by common people."
+  - SN: 4
+    name: N/A@记录
+    content:
+      zh-Hans: 异质物研究技术日新月异，这些神迹的威慑力也变得空前强大。
+      zh-Hant: 異質物研究技術日新月異，這些神蹟的威懾力也變得空前強大，
+      jp: 『聖痕』の中でも最も強力と考えられた、\nXK級『異質物』\n異質物研究技術の進歩により、\nこれらは人類の計り知れぬ脅威と認知され、\nのちに六大国家と呼ばれる勢力が持つ、\nそれぞれの切り札として扱われた。
+      kr: 이물질 연구기술은 빠르게 발전하고 있다. \n강한 힘이 있는 이물질이 무기화되기 사직한다.
+      en: As the research on Substance H progresses, "The Divine Touch" itself becomes
+        more and more powerful.
+  - SN: 5
+    name: N/A@记录
+    content:
+      zh-Hans: 相互牵制的力最终促使六大国缔结了和平条约。
+      zh-Hant: 這種相互牽制的力量，最終促使六大國締結了和平條約。
+      jp: 結果、絶大な力は抑止力となり、\n皮肉にも六大国家間での平和条約の締結に至る。\n以降、各国は戦火の拡大を防ぐため、\n講究に重きを置く方針を発表。
+      kr: 세계 멸망급 재앙을 방지하기 위해 『이물질』 연구 분야의 6개 선진 국가가 평화 조약을 맺었다.
+      en: As all six nations had Substance H, and no one wanted to risk a war that
+        could end the world, they signed a peace treaty.
+  - SN: 6
+    name: N/A@记录
+    content:
+      zh-Hans: 各国首都也不约而同地转型为研究型[ff9900]『学园都市』[-]（AcademyCity）。
+      zh-Hant: 各國首都也不約而同地宣稱轉為研究型[ff9900]「學園都市」[-]（AcademyCity）。
+      jp: それぞれの首都は[ff9900]『学園都市』[-]\n（AcademyCity）へと改名される。\n表面の安定化を図りつつ、水面下では世界全体の\n技術研究をさらなる躍進へと向かわせた────
+      kr: 6개 국가는 각자의 수도를 [ff9900]『학원도시』[-]（AcademyCity）라고 칭하기 시작했다.
+      en: As a result, all capitals of the six nations were renamed [ff9900]Academy
+        City[-], and they only focused on research.
+  - SN: 7
+    name: N/A@记录
+    content:
+      zh-Hans: 研究表明，从古至今可能有极少数异质物能够在[ff9900]特定媒介[-]下，与个体发生共鸣并被其完美掌控。
+      zh-Hant: 現代研究推測，長久以來，可能一直都有少數異質物能夠在[ff9900]特定媒介[-]下與個體發生共鳴並受其完美掌控，
+      jp: 時代は進み、とある推論が注目される。\n[ff9900]特定の媒介[-]の影響下では異質物が個体と共鳴し、\n異質物の超常現象を意のままに扱える\nというものだ。
+      kr: 옛날부터 일부분 이물질은 [ff9900]특정조건[-]에서 개체와 공명이 생길 수 있고 개체를 지배할 수 있다는 연구추측이 있다.
+      en: Modern science suggests that certain individuals can resonance with
+        Substance H and control its power when provided with [ff9900]specific
+        mediums[-].
+  - SN: 8
+    name: N/A@记录
+    content:
+      zh-Hans: 其中最广为人知的便是[ff9900]『魔女』[-]
+      zh-Hant: 其中最廣為人知的便是[ff9900]「魔女」[-]
+      jp: 現象において、最も広く知れ渡った個体……\n\n……[ff9900]『魔女』[-]
+      kr: 그중에 제일 잘 알려진 것은 바로 [ff9900]『마녀』[-]이다.
+      en: "[ff9900]Witches[-] are the widely known example."
+  - SN: 9
+    name: N/A@记录
+    content:
+      zh-Hans: 她们神秘力量的来源于异质物,\n不过它在过去被称为 -- [ff9900]『魔导器』[-]
+      zh-Hant: 她們神祕力量的來源是異質物，\n不過它在過去被稱為——[ff9900]「魔導器」[-]
+      jp: 貴方は知っているだろうか？\n『魔女』の神秘なる力の根源となる[ff9900]異質物[-]を──\n貴方は知っているだろうか？\nその昔
+        [ff9900]『魔導器』[-]と呼ばれていた事を──
+      kr: 그들의 신비한 힘은 이물질이라는 것에서 받는다.\n옛날에는-- [ff9900]『마도기』[-]라고도 불렀다.
+      en: Their mysterious power came from Substance H.\nAlthough, it was called
+        [ff9900]Catalyst[-] back in the days.
